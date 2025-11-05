@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}About- MyToDo{% endblock title %}
+
+{% block body %}
+<div class="container my-5">
+  <h2>About MyToDo</h2>
+  <p class="lead">
+    MyToDo is a simple yet powerful task management web application built using
+    <strong>Python Flask</strong> and <strong>SQLite</strong>.
+    It allows you to create, update, and manage your daily tasks efficiently.
+  </p>
+
+  <hr>
+
+  <h3>About Me</h3>
+  <p>
+    Hi! I'm <strong>Vishal Chaudhary</strong>, a passionate Python Developer with a strong
+    foundation in Flask, Django, and RESTful APIs. I enjoy creating practical,
+    scalable web applications that solve real-world problems.
+  </p>
+
+  <p>
+    This project was built as part of my learning journey to enhance my
+    full-stack development skills using Flask, Bootstrap, and SQLAlchemy.
+  </p>
+
+  <p>
+    📫 Feel free to connect with me on
+    <a href="https://www.linkedin.com/in/vishal-chaudhary-a12385253" target="_blank">LinkedIn</a>
+    or drop an email at
+    <a href="mailto:vishaltanger92@gmail.com">vishaltanger92@gmail.com</a>.
+  </p>
+
+  <a href="{{ url_for('index') }}" class="btn btn-outline-dark mt-3">Back to Home</a>
+</div>
+{% endblock body %}
